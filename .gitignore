@@ -1,0 +1,11 @@
+# Ne pas commiter les variables d'environnement réelles
+.env
+
+# Binaires moteurs (Dragon n'est pas open-source)
+uci-dragon/dragon
+uci-dragon/dragon.exe
+
+# Rust
+target/
+Cargo.lock
+.idea

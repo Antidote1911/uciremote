@@ -1,0 +1,14 @@
+[package]
+name = "uciserver"
+version = "0.1.0"
+edition = "2021"
+description = "UCI chess engine TCP server"
+
+[[bin]]
+name = "uciserver"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
